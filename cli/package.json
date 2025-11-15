@@ -1,0 +1,29 @@
+{
+  "name": "zklinker",
+  "version": "0.1.0",
+  "main": "dist/main.js",
+  "bin": {
+    "zklinker": "bin/zklinker"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/main.ts",
+    "link": "npm link"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.81.1",
+    "commander": "^14.0.2",
+    "dotenv": "^17.2.3",
+    "glob": "^11.0.3",
+    "openai": "^6.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
